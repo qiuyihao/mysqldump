@@ -1,0 +1,23 @@
+{
+    "name": "daoke5/mysqldump",
+    "description": "MySQL备份，支持邮件发送",
+    "keywords": [
+        "mysql",
+        "mysqldump"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "qiuyihao",
+            "email": "qiuyihao@139.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "EasyMySQLDump\\": "src/"
+        }
+    }
+}
